@@ -1,0 +1,12 @@
+Source: ros-indigo-graspit
+Section: misc
+Priority: extra
+Maintainer: Matei Ciocarlie <matei.ciocarlie@columbia.com>
+Build-Depends: debhelper (>= 9.0.0), libblas-dev, libcoin80-dev, liblapack-dev, libqhull-dev, libqt4-dev, libqt4-opengl-dev, libqt4-sql-psql, libsoqt4-dev, ros-indigo-catkin, ros-indigo-household-objects-database
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-graspit
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqhull-dev, libqt4-dbus, libqt4-network, libqt4-opengl, libqt4-script, libqt4-sql-psql, libqt4-test, libqt4-xml, libqtcore4, ros-indigo-household-objects-database
+Description: This package downloads and builds the GraspIt! simulator, developed in the Robotics Lab at Columbia University.
